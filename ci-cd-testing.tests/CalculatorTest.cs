@@ -37,8 +37,6 @@ namespace ci_cd_testing.tests
             var calculator = new Calculator();
             int result = calculator.Divide(3, 3);
 
-            throw new Exception("What if I throw an error here");
-
             Assert.Equal(1, result);
         }
     }
